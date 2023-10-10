@@ -1,6 +1,6 @@
 <?php
 
-
+namespace Prote\DatabaseOperation;
 class handleErrorAndRedirect{
     public static function handleErrorRedirectM(string $sessionName, string $errorMessage, string $location): void
     {

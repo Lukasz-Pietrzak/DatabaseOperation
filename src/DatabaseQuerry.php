@@ -1,7 +1,6 @@
 <?php
 
-require_once "Autoloading.php";
-Autoloading::autoloader();
+namespace Prote\DatabaseOperation;
 class DatabaseQuerry{
     private $result;
     private $dbConnect;

@@ -1,7 +1,6 @@
 <?php
 
-require_once "Autoloading.php";
-Autoloading::autoloader();
+namespace Prote\DatabaseOperation;
 class DbConnect implements DBConnectionInterface{
     private $connection;
     public function DatabaseConnection(string $localhost, string $username, string $password, string $database): void

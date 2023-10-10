@@ -1,4 +1,5 @@
 <?php
+namespace Prote\DatabaseOperation;
 session_start();
 class FetchRecord{
 

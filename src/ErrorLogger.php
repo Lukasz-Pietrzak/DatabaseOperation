@@ -1,5 +1,5 @@
 <?php
-
+namespace Prote\DatabaseOperation;
 class ErrorLogger
 {
     /**
