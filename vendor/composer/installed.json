@@ -1,0 +1,46 @@
+{
+    "packages": [
+        {
+            "name": "prote/database-operation",
+            "version": "v1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Lukasz-Pietrzak/DatabaseOperation.git",
+                "reference": "ecaddbf21ad1f258f9c6fb3cf1244eab90d080ec"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Lukasz-Pietrzak/DatabaseOperation/zipball/ecaddbf21ad1f258f9c6fb3cf1244eab90d080ec",
+                "reference": "ecaddbf21ad1f258f9c6fb3cf1244eab90d080ec",
+                "shasum": ""
+            },
+            "time": "2023-10-10T14:49:44+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Prote\\DatabaseOperation\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "prote",
+                    "email": "bingo216pt@gmail.com"
+                }
+            ],
+            "description": "Database Operation file",
+            "support": {
+                "issues": "https://github.com/Lukasz-Pietrzak/DatabaseOperation/issues",
+                "source": "https://github.com/Lukasz-Pietrzak/DatabaseOperation/tree/v1.0.0"
+            },
+            "install-path": "../prote/database-operation"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

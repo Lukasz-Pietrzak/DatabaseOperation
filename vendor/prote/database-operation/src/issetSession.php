@@ -1,5 +1,6 @@
 <?php
 namespace Prote\DatabaseOperation;
+
 class issetSession{
     public static function issetSessionM(string $sessionName){
         if (isset($_SESSION[$sessionName])){

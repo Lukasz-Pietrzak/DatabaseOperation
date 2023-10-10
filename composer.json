@@ -1,19 +1,6 @@
 {
-    "name": "prote/database-operation",
-    "description": "Database Operation file",
-    "type": "library",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Prote\\DatabaseOperation\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "prote",
-            "email": "bingo216pt@gmail.com"
-        }
-    ],
-    "minimum-stability": "stable",
-    "require": {}
+  "minimum-stability": "dev",
+  "require": {
+    "prote/database-operation": "1.0"
+  }
 }
