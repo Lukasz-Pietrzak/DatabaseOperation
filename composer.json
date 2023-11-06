@@ -1,5 +1,23 @@
 {
-  "minimum-stability": "dev",
+  "name": "test/composer",
+  "description": "some desc",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Test\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "lukasz-pietrzak"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/Lukasz-Pietrzak/DatabaseOperation"
+    }
+  ],
   "require": {
     "prote/database-operation": "1.0"
   }

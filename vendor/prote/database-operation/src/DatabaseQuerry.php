@@ -1,6 +1,9 @@
 <?php
 
 namespace Prote\DatabaseOperation;
+
+use Exception;
+
 class DatabaseQuerry{
     private $result;
     private $dbConnect;

@@ -1,6 +1,10 @@
 <?php
 
 namespace Prote\DatabaseOperation;
+
+use mysqli;
+use mysqli_sql_exception;
+
 class DbConnect implements DBConnectionInterface{
     private $connection;
     public function DatabaseConnection(string $localhost, string $username, string $password, string $database): void
@@ -27,5 +31,3 @@ class DbConnect implements DBConnectionInterface{
     }
 }
 
-$dbConnect = new DbConnect();
-$dbConnect->DatabaseConnection('localhost','root', '', 'osadnicy');
